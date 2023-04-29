@@ -28,6 +28,15 @@ function App() {
     MFG: "25 jan",
   };
 
+  const obj:string[]=["log in","log out","sign in ", "sign out"]
+
+ const buttons = obj.map((ele)=>{
+    return(
+
+      <button>{ele}</button>
+    )
+  })
+
   const bt = value.map((item) => {
     return (
       <>
@@ -35,6 +44,7 @@ function App() {
         <br></br>
         <br></br>
         <h1>{material.product}</h1>
+
       </>
     );
   });
@@ -63,6 +73,9 @@ function App() {
       <br></br>
 
       {bt}
+
+      {buttons}
+
     </>
   );
 }
