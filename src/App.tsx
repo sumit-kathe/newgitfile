@@ -41,6 +41,7 @@ function App() {
 
  function addition(a:number,b:number):void{
 
+  // how to add a type inside a function
 
   return(console.log(a+b));
 
