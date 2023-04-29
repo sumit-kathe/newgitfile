@@ -42,6 +42,7 @@ function App() {
  function addition(a:number,b:number):void{
 
   // how to add a type inside a function
+  // Testing how git worl
 
   return(console.log(a+b));
 
